@@ -30,7 +30,11 @@ DROP TABLE posts;
 
 INSERT INTO posts(id, creator_id, content, likes, dislikes_numbers)
 VALUES ('p001', 'u001', 'Oiee, tudo bem?', 5, 2), 
+
        ('p002', 'u002', 'Oie, tudo bem. E com você?', 8, 4 );
+
+       ('p002', 'u002', 'Oie, tudo bem. E com você?', 4, 5 );
+
 
 SELECT * FROM users;
 
